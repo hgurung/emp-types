@@ -1,7 +1,7 @@
 {
   "name": "@emp-modules/emp-types",
   "description": "EMP Modules Libraries",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "homepage": "https://github.com/hgurung/emp-types#README",
