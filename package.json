@@ -1,0 +1,53 @@
+{
+  "name": "@emp-modules/emp-types",
+  "description": "EMP Modules Libraries",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "homepage": "https://github.com/hgurung/emp-types#README",
+  "private": true,
+  "author": {
+    "name": "Harris Gurung",
+    "email": "h.gurung1@gmail.com",
+    "url": "https://github.com/hgurung/"
+  },
+  "license": "MIT",
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/hgurung/emp-types/issues"
+  },
+  "engines": {
+    "node": ">= 16.18.1"
+  },
+  "feathers": {
+    "language": "ts",
+    "packager": "npm",
+    "schema": "typebox"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hgurung/emp-types"
+  },
+  "keywords": [
+    "emp-types",
+    "typescript",
+    "packages",
+    "npm"
+  ],
+  "dependencies": {
+    "@feathersjs/schema": "^5.0.0-pre.31",
+    "@feathersjs/typebox": "^5.0.0-pre.31"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
